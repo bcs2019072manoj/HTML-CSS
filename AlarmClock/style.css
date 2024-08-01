@@ -1,0 +1,76 @@
+* {
+	box-sizing: border-box;
+
+}
+
+html {
+    padding-top:20px;
+}
+
+
+
+body {
+    border: 8px solid #100c0d;
+    border-radius: 20px;
+    padding: 40px;
+    width: 60%;
+    height: 400px;
+    margin: 0 auto;
+    background: url('https://img.freepik.com/free-photo/abstract-background-with-red-lines_1361-3531.jpg?w=1060&t=st=1699162242~exp=1699162842~hmac=23e58c1f09c3c7480a4cb4f89d9ba017a738496a7729572f7da8ff8753ec9ff1');
+}
+
+#clock {
+    height:120px;
+    font-size: 40px;
+    font-family: arial;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  color: rgb(240, 243, 240);
+}
+
+h2 {
+	text-align:center;
+  
+
+}
+
+#alarm-container {
+	text-align:center;
+    font-family: Verdana;
+    font-size: 0.6em;
+    padding: 0.7em;
+  color: #eaedeb;
+}
+
+label {
+	display:inline-block;
+}
+
+.timeofday {
+    background-color: #18cc24;
+}
+
+.bigger {
+    font-weight:bold;
+    font-size: 25px;
+}
+
+#sounds {
+    text-align: center;
+    padding-top: 20px;
+}
+
+#setButton {
+    float:left;
+    background-color:hwb(133 4% 28%);
+    margin-top:10px;
+}
+#clearButton {
+    float:right;
+    background-color:hsl(11, 94%, 44%);
+    margin: top 10;
+}
+
+
